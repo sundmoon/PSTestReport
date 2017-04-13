@@ -1,8 +1,8 @@
 Param(
   [int]     $BuildNumber = 0,
-  [string]  $GitRepo = "Repo Name",
-  [string]  $GitRepoURL = "#",
-  [string]  $CiURL = "#",
+  [string]  $GitRepo = "PSHitchHiker",
+  [string]  $GitRepoURL = "https://github.com/sundmoon/PSHitchhiker.git",
+  [string]  $CiURL = "http://levt.theserver.tk:20080/github-webhook/",
   [boolean] $ShowHitCommands = $false,
   [double]  $Compliance = 0.8,
   [string]  $ScriptAnalyzerFile = ".\artifacts\ScriptAnalyzerResults.json",
